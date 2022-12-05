@@ -1,0 +1,81 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>my first website</title>
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.production.css">
+	</head>
+	<body>
+		<header class="page-header">
+			<img src="img/logo.png" width="150"  alt="name logo" class="page-header_item">
+			<nav class="main-navigation page-header_item">
+				<ul role="menubar" class="navigation-list">
+				  <li role="presentation">
+					<a href="index.html" role="menuitem" class="navigation-list_item">Home</a>
+				  </li>
+				  <li role="presentation">
+					<a href="about.html" role="menuitem" class="navigation-list_item">About</a>
+				  </li>
+				  <li role="presentation">
+					<a href="contact.html" role="menuitem" class="navigation-list_item navigation-list_item--active">Contact</a>
+				  </li>
+				<li role="presentation">
+				  <a href="work.html" role="menuitem" class="navigation-list_item">Work</a>
+				</li>
+				</ul>
+			  </nav>
+		</header>
+		
+		<div>
+			<h1>Contact</h1>
+			Roko Vujevic<br>
+			Tüngentaler straße 27<br>
+			74523<br>
+			Deutschland<br>
+			<br>
+			<br>
+			Tel.number:<a href="tel:+49 15170159810">+49 15170159810</a>
+			<br>
+			Skype:<a href="skype:Roko Vujevic">Roko Vujevic</a>
+				<br>
+			Email:<a href="mailto:vujev4@gmail.com">vujev4@gmail.com</a>
+				<br>
+				<a href="mailto:office@careerfoundry.com">Contact me</a>
+				<br>
+			</div>
+			<div>
+              <form action="" method="post" id="contact-form">
+
+				<label class="standard label "for="contact-email">E-mail: </label>
+				<input type="email" id="contact-email" required>
+
+				<label class="standard label" for="contact-telephone">Telephone: </label>
+				<input type="tel" id="contact-telephone"pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
+			  
+				<label class="standard label" for="contact-message">Message: </label>
+				<textarea id="contact-message"required maxlength="240"></textarea>
+			  
+				<input type="submit" value="Send message">
+			  </form>
+			</div>
+			<footer class="page-footer">
+				<p>Find me on</p>
+				<div class="social-media">
+					<a href="http://Github.com">
+						<img src="img/github.svg" alt="github logo"></a>
+					<a href="https://twitter.com/careerfoundry">
+						<img src="img/twitter.svg" alt="twitter logo"></a>
+					<a href="https://linkedIn.com">
+						<img src="img/linkedin.svg" alt="linkedIn logo"></a>
+				</div>
+			</footer>
+
+			<script src="js/tota11y.min.js"></script>
+		</body>
+		</html>		
