@@ -108,6 +108,11 @@ button {
         display: inline-block;
         margin-left: 15px;
       }
+      .contact-information{
+        text-align: center;}
+      #contact-form{
+        text-align: center;
+      }
      
        .grid_item {
         background-color: rgb(164, 217, 218);
