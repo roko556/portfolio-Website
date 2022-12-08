@@ -1,5 +1,4 @@
- /*primary color #453E4C , background color (purple) #A297AD , text color (dark grey) #2b2b2b , 
- */
+
  :root {
   --text-color: #030600;
 	--background-color:#A297AD ;
@@ -16,7 +15,7 @@
 	font-weight: 400;
 	font-size:var(--body__font--size) ;
 	line-height: 1.6;
- 
+
 }
 
 h1 {
